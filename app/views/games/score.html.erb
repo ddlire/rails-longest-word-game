@@ -1,0 +1,11 @@
+<div class="container">
+<h2>Result</h2>
+<ul class="list-group">
+  <li class="list-group-item"><h4>your word: <strong><%= @word %></strong></h4></li>
+  <li class="list-group-item"><h4>Time taken to answer: <strong> <%= @time %></strong></h4></li>
+  <li class="list-group-item"><h4>Your score: <strong><%= @score %></strong></h4></li>
+</ul>
+  <h3><%= @message %></h3>
+</div>
+
+<%= link_to "Play again", new_path, :class => "btn btn-primary m-3" %>
